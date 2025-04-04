@@ -11,7 +11,7 @@
             color: #3b99e0;
             margin-bottom: 20px;
         }
-        .block-subheading {
+        .block-heading p {
             text-align: center;
         }
         .summary {
@@ -39,8 +39,10 @@
 <body>
 
 <div class="container mt-5">
-    <h2 class="block-heading">Shopping Cart</h2>
-    <p class="block-subheading">The customer is very important, and will be followed by the customer.</p>
+    <div class="block-heading">
+        <h2>Shopping Cart</h2>
+        <p>The customer is very important, and will be followed by the customer.</p>
+    </div>
 
     <div class="row">
         <div class="col-lg-8">
@@ -50,7 +52,7 @@
                         <img src="https://via.placeholder.com/100" class="img-fluid">
                     </div>
                     <div class="col-md-5">
-                        <a href="#" class="text-primary"><h6>I am very sorry</h6></a>
+                        <a href="#" class="text-primary"><h6>Product Name 1</h6></a>
                         <p>Display: 5 inches<br>RAM: 4GB<br>Memory: 32GB</p>
                     </div>
                     <div class="col-md-3">
@@ -61,16 +63,52 @@
                     </div>
                 </div>
             </div>
+
+            <div class="product">
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <img src="https://via.placeholder.com/100" class="img-fluid">
+                    </div>
+                    <div class="col-md-5">
+                        <a href="#" class="text-primary"><h6>Product Name 2</h6></a>
+                        <p>Display: 6 inches<br>RAM: 6GB<br>Memory: 64GB</p>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" value="1" min="0">
+                    </div>
+                    <div class="col-md-2">
+                        <strong>$150</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <img src="https://via.placeholder.com/100" class="img-fluid">
+                    </div>
+                    <div class="col-md-5">
+                        <a href="#" class="text-primary"><h6>Product Name 3</h6></a>
+                        <p>Display: 7 inches<br>RAM: 8GB<br>Memory: 128GB</p>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" value="1" min="0">
+                    </div>
+                    <div class="col-md-2">
+                        <strong>$180</strong>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="col-lg-4">
             <div class="summary">
                 <h5>Summary</h5>
-                <p>Subtotal: <span class="float-end">$360</span></p>
+                <p>Subtotal: <span class="float-end">$450</span></p>
                 <p>Discount: <span class="float-end">$0</span></p>
                 <p>Shipping: <span class="float-end">$0</span></p>
                 <hr>
-                <p><strong>Total: <span class="float-end">$360</span></strong></p>
+                <p><strong>Total: <span class="float-end">$450</span></strong></p>
                 <button class="btn">Checkout</button>
             </div>
         </div>
